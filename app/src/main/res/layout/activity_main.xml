@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -155,40 +154,36 @@
             android:layout_height="110dp"
             android:layout_gravity="left|top"
             android:layout_margin="30dp"
-            android:layout_marginLeft="50dp"
             android:background="#FF7F5B"
             android:text="n o t e"
             android:textColor="#ffffff" />
 
         <Button
-            android:id="@+id/btnote"
+            android:id="@+id/btplanner"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_gravity="right|top"
             android:layout_margin="30dp"
-            android:layout_marginRight="50dp"
             android:background="#FF7F5B"
             android:text="p l a n n e r"
             android:textColor="#ffffff" />
 
         <Button
-            android:id="@+id/btnote"
+            android:id="@+id/btschedule"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_gravity="left|bottom"
             android:layout_margin="30dp"
-            android:layout_marginLeft="50dp"
             android:background="#FF7F5B"
             android:text="s c h e d u l e"
             android:textColor="#ffffff" />
 
         <Button
-            android:id="@+id/btnote"
+            android:id="@+id/bthomework"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_gravity="right|bottom"
             android:layout_margin="30dp"
-            android:layout_marginRight="50dp"
             android:background="#FF7F5B"
             android:text="h o m e w o r k"
             android:textColor="#ffffff" />
